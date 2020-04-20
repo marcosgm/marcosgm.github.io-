@@ -22,7 +22,7 @@ title: Marc GM blog
 email: noemail@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Technical notes around Azure, Linux, Automation and other work stuff
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.marcgm.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _marcos_gm_
 github_username:  _marcosgm_
@@ -34,7 +34,7 @@ plugins:
 
 lsi: false
 safe: true
-source: "/blog"
+source: .
 incremental: false
 highlighter: rouge
 gist:
