@@ -41,6 +41,9 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-relative-links
 
+header_pages:
+  - contact.md
+
 lsi: false
 safe: true
 source: .

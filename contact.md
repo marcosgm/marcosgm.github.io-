@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-permalink: /about/
+title: "Contact"
+permalink: /contact
 ---
 My name is Marcos Garcia Marti (or in short, *Marc Garcia*)
 I work at Microsoft as a Cloud Solutions Architect, specialized in Azure Infrastructure, sysadmin and networking stuff
