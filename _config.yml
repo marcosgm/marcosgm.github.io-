@@ -28,7 +28,7 @@ twitter_username: _marcos_gm_
 github_username:  _marcosgm_
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
