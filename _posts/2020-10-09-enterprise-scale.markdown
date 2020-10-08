@@ -5,9 +5,8 @@ date:   2020-10-09 11:55:17 -0400
 categories: azure enterprise-scale
 ---
 I'd like to summarize the recently released Enterprise Scale architecture for Azure
-The main documentation is in
-https://github.com/Azure/Enterprise-Scale
-and the course in https://docs.microsoft.com/en-us/learn/paths/enterprise-scale-architecture/
+The [main documentation is here](https://github.com/Azure/Enterprise-Scale)
+and the [course here](https://docs.microsoft.com/en-us/learn/paths/enterprise-scale-architecture/)
 
 Here's how I explain it:
 
@@ -26,9 +25,9 @@ Within CAF, in the Ready phase, there's **the idea of a Landing Zone, as an anal
 * Business continuity and DR
 * Deployment options
 
-Here's where the Enterprise Scale comes into play. We give you up to **three (3!) starter kits to create your Landing Zones**. You should consider if you are starting from scratch (no cloud workloads) or if you have to onboard already existing resources and put them under central control. There are 3 different technologies involved as well: Azure Blueprints, Terraform, Azure ARM Templates. And some are modular and offer different networking implementation. This page has a great summary of the [Implementation Options for Landing Zones] (https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)
+Here's where the Enterprise Scale comes into play. We give you up to **three (3!) starter kits to create your Landing Zones**. You should consider if you are starting from scratch (no cloud workloads) or if you have to onboard already existing resources and put them under central control. There are 3 different technologies involved as well: Azure Blueprints, Terraform, Azure ARM Templates. And some are modular and offer different networking implementation. This page has a great summary of the [Implementation Options for Landing Zones](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)
 
-You should also evaluate the maturity of your IT organization, its size and level of decentralization. Here's (good guidance to compare operating models of all sizes](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare]
+You should also evaluate the maturity of your IT organization, its size and level of decentralization. Here's [good guidance to compare operating models of all sizes](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare)
 
 We'll analyze the one based on ARM templates: [Enterprise Scale Landing Zone, or ESLZ](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/). Take it as reference and implement your own, as it's modular, has 3 networking options, and it can be extend it using Infrastructure-as-code. ![Enteprise Landing Zones](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/operating-model/enterprise-operations.png)
 
